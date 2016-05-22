@@ -36,7 +36,6 @@ available options
     - you will need a token to access the Api. no registration, nothing, just grab the key.
       you can get it here https://fonoapi.freshpixl.com/token/generate
 
-
 ------
 ###### PHP Demo
 
@@ -66,6 +65,11 @@ available options
 		}
 
 ?>
+```
+------
+###### Curl Example
+```bash
+curl https://fonoapi.freshpixl.com/v1/getdevice -XPOST -H 'Accept: application/json' -d 'token=YOUR_TOKEN_HERE&limit=5&device=A8'
 ```
 
 ------
